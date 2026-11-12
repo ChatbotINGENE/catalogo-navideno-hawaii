@@ -2713,7 +2713,7 @@ const SECCIONES = [
    },
    {
     "id": "831-amx082-26234g",
-    "nombre": "Malla Duna 8.9 cm × 10 yds Dorado",
+    "nombre": "Cinta Duna 8.9 cm × 10 yds Dorado",
     "medida": "8.9 cm × 10 yds",
     "piezas": null,
     "desc": "Mide 8.9 cm × 10 yds.",
@@ -2730,7 +2730,7 @@ const SECCIONES = [
    },
    {
     "id": "831-amx082-2569",
-    "nombre": "Malla Estrella de David 10 cm × 10 yds Blanca Aplicativo Rojo",
+    "nombre": "Cinta Estrella de David 10 cm × 10 yds Blanca Aplicativo Rojo",
     "medida": "10 cm × 10 yds",
     "piezas": null,
     "desc": "Mide 10 cm × 10 yds.",
@@ -2798,7 +2798,7 @@ const SECCIONES = [
    },
    {
     "id": "831-amx082-2541",
-    "nombre": "Malla Pascual 10 cm × 10 yds Blanco Aplicativo Dorado",
+    "nombre": "Cinta Pascual 10 cm × 10 yds Blanco Aplicativo Dorado",
     "medida": "10 cm × 10 yds",
     "piezas": null,
     "desc": "Mide 10 cm × 10 yds.",
@@ -2832,7 +2832,7 @@ const SECCIONES = [
    },
    {
     "id": "831-amx082-26248",
-    "nombre": "Malla Rayas de Purpurina Dorada 10 cm × 10 yds Rojo/Dorado",
+    "nombre": "Cinta Rayas de Purpurina Dorada 10 cm × 10 yds Rojo/Dorado",
     "medida": "10 cm × 10 yds",
     "piezas": null,
     "desc": "Mide 10 cm × 10 yds.",
@@ -2849,7 +2849,7 @@ const SECCIONES = [
    },
    {
     "id": "831-amx082-26221",
-    "nombre": "Malla Telón Rojo 11 cm × 10 yds Rojo Traslucido",
+    "nombre": "Cinta Telón Rojo 11 cm × 10 yds Rojo Traslucido",
     "medida": "11 cm × 10 yds",
     "piezas": null,
     "desc": "Mide 11 cm × 10 yds.",
