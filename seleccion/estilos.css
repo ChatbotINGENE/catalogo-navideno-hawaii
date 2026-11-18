@@ -33,11 +33,11 @@
 
      Los nombres no dicen un color a propósito: cambiar la paleta es
      cambiar este bloque y nada más. */
-  --marca:       #161412;   /* titulares, botones, estructura */
+  --marca:       #141414;   /* titulares, botones, estructura */
   /* El rosa de fondo va empolvado y no encendido: sobre un fondo
      saturado, el fucsia de los precios deja de saltar. Lo que salta es
      lo que contrasta, y para contrastar el fondo tiene que ceder. */
-  --marca-hondo: #0B0A09;   /* barra, portada, contraportada */
+  --marca-hondo: #0A0A0A;   /* barra, portada, contraportada */
   --marca-claro: #A8956A;
   --fucsia:      #8F6A22;   /* precios de preventa, sellos, lo que salta */
   --fucsia-hondo:#6E5018;
@@ -76,7 +76,7 @@ body {
   background: var(--marca-hondo);
   /* Un resplandor tibio detrás del libro, como la luz de una sala. */
   background-image:
-    radial-gradient(120% 80% at 50% 0%, #24201B 0%, transparent 60%),
+    radial-gradient(120% 80% at 50% 0%, #1C1C1C 0%, transparent 60%),
     radial-gradient(90% 60% at 50% 100%, #060505 0%, transparent 70%);
   display: flex;
   flex-direction: column;
@@ -316,8 +316,8 @@ img { max-width: 100%; display: block; }
 
 .pagina.portada {
   background:
-    radial-gradient(90% 65% at 50% 18%, #3A342C 0%, transparent 62%),
-    linear-gradient(170deg, #2A2622 0%, #0E0D0B 100%);
+    radial-gradient(90% 65% at 50% 18%, #1E1E1E 0%, transparent 62%),
+    linear-gradient(170deg, #121212 0%, #050505 100%);
   color: var(--papel);
 }
 .portada .pagina-interior {
@@ -468,7 +468,7 @@ img { max-width: 100%; display: block; }
   pointer-events: none;
   z-index: 0;
   background: radial-gradient(60% 100% at 50% 100%,
-    rgba(217,166,78,.26) 0%, rgba(217,166,78,.10) 42%, transparent 72%);
+    rgba(217,166,78,.16) 0%, rgba(217,166,78,.06) 42%, transparent 72%);
 }
 
 .pie-luces {
@@ -1291,7 +1291,7 @@ img { max-width: 100%; display: block; }
 /* ── Contraportada ──────────────────────────────────────────── */
 
 .pagina.contra {
-  background: linear-gradient(200deg, #2A2622 0%, #0E0D0B 100%);
+  background: linear-gradient(200deg, #121212 0%, #050505 100%);
   color: var(--papel);
 }
 .contra .pagina-interior {
