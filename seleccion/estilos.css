@@ -1,7 +1,8 @@
 /* ════════════════════════════════════════════════════════════════
    Almacén Hawaii — Selección Navidad 2026 (edición privada)
 
-   ESTA EDICIÓN VA EN NEGRO Y DORADO (pedido de Fernando, 18-nov):
+   ESTA EDICIÓN VA EN NEGRO Y DORADO (pedido de Fernando, 18-nov), con
+   portada y contraportada en ROJO VINO (elegido el mismo día):
    negro cálido de estructura, oro viejo para precios y acentos, dorado
    para luces y filetes, papel marfil. Los nombres de las variables
    (--marca, --fucsia…) quedaron igual que en la estándar.
@@ -316,8 +317,8 @@ img { max-width: 100%; display: block; }
 
 .pagina.portada {
   background:
-    radial-gradient(90% 65% at 50% 18%, #1E1E1E 0%, transparent 62%),
-    linear-gradient(170deg, #121212 0%, #050505 100%);
+    radial-gradient(90% 65% at 50% 18%, #7A1626 0%, transparent 62%),   /* rojo vino */
+    linear-gradient(170deg, #4A0B16 0%, #1A0307 100%);
   color: var(--papel);
 }
 .portada .pagina-interior {
@@ -1291,7 +1292,9 @@ img { max-width: 100%; display: block; }
 /* ── Contraportada ──────────────────────────────────────────── */
 
 .pagina.contra {
-  background: linear-gradient(200deg, #121212 0%, #050505 100%);
+  background:
+    radial-gradient(90% 60% at 50% 12%, #6A1220 0%, transparent 60%),
+    linear-gradient(200deg, #4A0B16 0%, #1A0307 100%);   /* rojo vino, como la portada */
   color: var(--papel);
 }
 .contra .pagina-interior {
