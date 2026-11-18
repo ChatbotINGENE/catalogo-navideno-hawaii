@@ -1,5 +1,12 @@
 /* ════════════════════════════════════════════════════════════════
-   Almacén Hawaii — Catálogo Navideño 2026 (precio estándar)
+   Almacén Hawaii — Selección Navidad 2026 (edición privada)
+
+   ESTA EDICIÓN VA EN NEGRO Y DORADO (pedido de Fernando, 18-nov):
+   negro cálido de estructura, oro viejo para precios y acentos, dorado
+   para luces y filetes, papel marfil. Los nombres de las variables
+   (--marca, --fucsia…) quedaron igual que en la estándar.
+
+   Notas de la edición estándar, abajo:
 
    Esta edición va con paleta navideña clásica: verde pino de estructura,
    rojo navidad para precios y lo que salta, dorado para luces y filetes,
@@ -26,19 +33,19 @@
 
      Los nombres no dicen un color a propósito: cambiar la paleta es
      cambiar este bloque y nada más. */
-  --marca:       #14532D;   /* titulares, botones, estructura */
+  --marca:       #161412;   /* titulares, botones, estructura */
   /* El rosa de fondo va empolvado y no encendido: sobre un fondo
      saturado, el fucsia de los precios deja de saltar. Lo que salta es
      lo que contrasta, y para contrastar el fondo tiene que ceder. */
-  --marca-hondo: #0E3B26;   /* barra, portada, contraportada */
-  --marca-claro: #7FA88C;
-  --fucsia:      #C21F32;   /* precios de preventa, sellos, lo que salta */
-  --fucsia-hondo:#9A1626;
+  --marca-hondo: #0B0A09;   /* barra, portada, contraportada */
+  --marca-claro: #A8956A;
+  --fucsia:      #8F6A22;   /* precios de preventa, sellos, lo que salta */
+  --fucsia-hondo:#6E5018;
   --dorado:      #D4A83F;   /* luces, filetes, lo navideño */
   --papel:       #FBF7EE;   /* la hoja */
   --papel-hondo: #F2EAD7;
-  --tinta:       #1E2A22;
-  --tinta-suave: #5F6B62;
+  --tinta:       #1C1A17;
+  --tinta-suave: #6B655B;
   --linea:       #E5DAC0;
   --whatsapp:    #25D366;
 
@@ -46,8 +53,8 @@
   --r:       16px;
   --r-grande:26px;
 
-  --sombra:      0 2px 8px rgba(14,59,38,.08), 0 12px 32px rgba(14,59,38,.10);
-  --sombra-alta: 0 8px 24px rgba(14,59,38,.16), 0 32px 64px rgba(14,59,38,.22);
+  --sombra:      0 2px 8px rgba(20,18,15,.08), 0 12px 32px rgba(20,18,15,.10);
+  --sombra-alta: 0 8px 24px rgba(20,18,15,.16), 0 32px 64px rgba(20,18,15,.22);
 
   --titulo: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   --texto:  "Open Sans", "Helvetica Neue", Arial, sans-serif;
@@ -69,8 +76,8 @@ body {
   background: var(--marca-hondo);
   /* Un resplandor tibio detrás del libro, como la luz de una sala. */
   background-image:
-    radial-gradient(120% 80% at 50% 0%, #1F6142 0%, transparent 60%),
-    radial-gradient(90% 60% at 50% 100%, #06231A 0%, transparent 70%);
+    radial-gradient(120% 80% at 50% 0%, #24201B 0%, transparent 60%),
+    radial-gradient(90% 60% at 50% 100%, #060505 0%, transparent 70%);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -90,7 +97,7 @@ img { max-width: 100%; display: block; }
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  background: rgba(10, 46, 30, .72);
+  background: rgba(12, 11, 10, .72);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-bottom: 1px solid rgba(251, 246, 236, .10);
@@ -309,8 +316,8 @@ img { max-width: 100%; display: block; }
 
 .pagina.portada {
   background:
-    radial-gradient(90% 65% at 50% 18%, #2E7A54 0%, transparent 62%),
-    linear-gradient(170deg, #1A5C3D 0%, #0B3322 100%);
+    radial-gradient(90% 65% at 50% 18%, #3A342C 0%, transparent 62%),
+    linear-gradient(170deg, #2A2622 0%, #0E0D0B 100%);
   color: var(--papel);
 }
 .portada .pagina-interior {
@@ -406,7 +413,7 @@ img { max-width: 100%; display: block; }
     radial-gradient(circle at 88% 55%,  rgba(255,255,255,.9)  0 2.1px, transparent 3px),
     radial-gradient(circle at 9%  67%,  rgba(255,255,255,.8)  0 1.8px, transparent 3px),
     radial-gradient(circle at 58% 82%,  rgba(255,255,255,.9)  0 2.2px, transparent 3px),
-    radial-gradient(circle at 30% 94%,  rgba(194,31,50,.7)   0 1.9px, transparent 3px);
+    radial-gradient(circle at 30% 94%,  rgba(143,106,34,.7)   0 1.9px, transparent 3px);
 }
 .nieve i:nth-child(2) {
   opacity: .42;
@@ -567,7 +574,7 @@ img { max-width: 100%; display: block; }
   font-weight: 800;
   font-size: clamp(12px, 3.4cqw, 17px);
   letter-spacing: .02em;
-  box-shadow: 0 6px 20px rgba(194,31,50,.35);
+  box-shadow: 0 6px 20px rgba(143,106,34,.35);
 }
 
 /* ── Página de bienvenida ───────────────────────────────────── */
@@ -657,11 +664,11 @@ img { max-width: 100%; display: block; }
 .escena-foto::after {
   content: "";
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(8,36,24,.82) 0%, rgba(8,36,24,.30) 26%, transparent 52%);
+  background: linear-gradient(to top, rgba(10,9,8,.82) 0%, rgba(10,9,8,.30) 26%, transparent 52%);
   pointer-events: none;
 }
 .escena-foto.velo-arriba::after {
-  background: linear-gradient(to bottom, rgba(8,36,24,.84) 0%, rgba(8,36,24,.32) 28%, transparent 54%);
+  background: linear-gradient(to bottom, rgba(10,9,8,.84) 0%, rgba(10,9,8,.32) 28%, transparent 54%);
 }
 .escena-pie {
   position: absolute;
@@ -710,7 +717,7 @@ img { max-width: 100%; display: block; }
   width: 8px; height: 8px;
   border-radius: 50%;
   background: var(--fucsia);
-  box-shadow: 0 0 0 4px rgba(194,31,50,.3);
+  box-shadow: 0 0 0 4px rgba(143,106,34,.3);
 }
 
 /* ── Las esferas colgadas ─────────────────────────────────────────
@@ -824,8 +831,8 @@ img { max-width: 100%; display: block; }
   animation: latido 2.6s ease-out infinite;
 }
 @keyframes latido {
-  0%       { box-shadow: 0 2px 8px rgba(0,0,0,.4), 0 0 0 0    rgba(194,31,50,.55); }
-  55%, 100%{ box-shadow: 0 2px 8px rgba(0,0,0,.4), 0 0 0 15px rgba(194,31,50,0); }
+  0%       { box-shadow: 0 2px 8px rgba(0,0,0,.4), 0 0 0 0    rgba(143,106,34,.55); }
+  55%, 100%{ box-shadow: 0 2px 8px rgba(0,0,0,.4), 0 0 0 15px rgba(143,106,34,0); }
 }
 .punto:hover::before, .punto:focus-visible::before { opacity: 1; border-color: rgba(251,246,236,.55); }
 .punto:focus-visible { outline: none; }
@@ -917,7 +924,7 @@ img { max-width: 100%; display: block; }
   font-weight: 800;
   font-size: clamp(9px, 2.4cqw, 11.5px);
   letter-spacing: .02em;
-  box-shadow: 0 2px 8px rgba(194,31,50,.32);
+  box-shadow: 0 2px 8px rgba(143,106,34,.32);
 }
 
 .tarjeta-cuerpo { min-width: 0; overflow: hidden; display: flex; flex-direction: column; gap: 5px; }
@@ -1065,8 +1072,8 @@ img { max-width: 100%; display: block; }
 .seccion-foto::after {
   content: "";
   position: absolute; inset: 0;
-  background: linear-gradient(to top, rgba(8,36,24,.9) 0%, rgba(8,36,24,.45) 30%,
-                              rgba(8,36,24,.12) 55%, rgba(8,36,24,.3) 100%);
+  background: linear-gradient(to top, rgba(10,9,8,.9) 0%, rgba(10,9,8,.45) 30%,
+                              rgba(10,9,8,.12) 55%, rgba(10,9,8,.3) 100%);
 }
 
 .flota {
@@ -1284,7 +1291,7 @@ img { max-width: 100%; display: block; }
 /* ── Contraportada ──────────────────────────────────────────── */
 
 .pagina.contra {
-  background: linear-gradient(200deg, #1A5C3D 0%, #0B3322 100%);
+  background: linear-gradient(200deg, #2A2622 0%, #0E0D0B 100%);
   color: var(--papel);
 }
 .contra .pagina-interior {
@@ -1355,7 +1362,7 @@ img { max-width: 100%; display: block; }
   position: fixed;
   inset: 0;
   z-index: 100;
-  background: rgba(8, 36, 24, .58);
+  background: rgba(10, 9, 8, .58);
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   display: flex;
@@ -1460,7 +1467,7 @@ img { max-width: 100%; display: block; }
 .etiqueta-ahorro {
   padding: 4px 10px;
   border-radius: 999px;
-  background: rgba(194,31,50,.12);
+  background: rgba(143,106,34,.12);
   color: var(--fucsia-hondo);
   font-family: var(--titulo);
   font-weight: 800;
@@ -1672,7 +1679,7 @@ img { max-width: 100%; display: block; }
   color: var(--tinta);
 }
 .carrito-pie input:focus { outline: 2px solid var(--marca-claro); outline-offset: -1px; }
-.carrito-pie input.mal { border-color: var(--fucsia); background: rgba(194,31,50,.05); }
+.carrito-pie input.mal { border-color: var(--fucsia); background: rgba(143,106,34,.05); }
 
 .aviso { margin: 0; font-size: 12px; color: var(--fucsia-hondo); font-weight: 600; }
 .aviso[hidden] { display: none; }
@@ -1687,7 +1694,7 @@ img { max-width: 100%; display: block; }
   border: 0;
   border-radius: var(--r-chico);
   background: var(--whatsapp);
-  color: #08301A;
+  color: #0A0908;
   font-family: var(--titulo);
   font-weight: 800;
   font-size: 14.5px;
@@ -1827,7 +1834,7 @@ body.sin-libreria .pagina {
   display: inline-block;
   padding: 2px 8px;
   border-radius: 999px;
-  background: rgba(194,31,50,.10);
+  background: rgba(143,106,34,.10);
   color: var(--fucsia-hondo);
   font-family: var(--titulo);
   font-style: normal;
@@ -1935,10 +1942,10 @@ body.sin-libreria .pagina {
 .sala-foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .sala-lienzo::after {                     /* velo para que el rótulo se lea */
   content: ""; position: absolute; inset: 0; pointer-events: none;
-  background: linear-gradient(to bottom, rgba(14,30,22,.78) 0%, rgba(14,30,22,.35) 17%, transparent 30%);
+  background: linear-gradient(to bottom, rgba(10,9,8,.78) 0%, rgba(10,9,8,.35) 17%, transparent 30%);
 }
 .pagina.sala.rotulo-abajo .sala-lienzo::after {
-  background: linear-gradient(to top, rgba(14,30,22,.82) 0%, rgba(14,30,22,.38) 18%, transparent 32%);
+  background: linear-gradient(to top, rgba(10,9,8,.82) 0%, rgba(10,9,8,.38) 18%, transparent 32%);
 }
 .sala-rotulo {
   position: absolute; left: 0; right: 0; top: 0; z-index: 4;

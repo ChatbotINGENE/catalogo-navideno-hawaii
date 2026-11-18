@@ -293,11 +293,11 @@ function pagSala(id, rotulo, titulo, texto, n, abajo) {
 /* Qué sala reemplaza a qué página: la escena de mesa (pág. 11) y las
    portadas de mallas, moños y coronas (págs. 35, 39 y 41). */
 const SALA_ESCENA = {
-  mesa: ['esferas', 'Esferas y bolitas', 'La sala principal',
-         'Dorado y rojo sobre la repisa y la mesa de centro: dos tonos bien combinados se ven más finos que muchos colores.', false],
+  mesa: ['esferas', 'Esferas y bolitas', 'El árbol de la sala',
+         'Dorado y rojo entre las luces del árbol: dos tonos bien combinados se ven más finos que muchos colores.', false],
 };
 const SALA_SECCION = {
-  'mallas-y-cintas': ['cintas', 'El recibidor', 'Cintas y mallas por rollo, para envolver regalos y rematar coronas y arreglos.', false],
+  'mallas-y-cintas': ['cintas', 'La mesa de regalos', 'Cintas y mallas por rollo, para envolver regalos y rematar coronas y arreglos.', false],
   'monos-y-lazos':   ['monos', 'Rincón de lectura', 'Un moño grande en el respaldo y otro en la pared: el detalle que hace ver un sillón de gala.', true],
   'coronas-y-guias': ['coronas', 'La chimenea', 'Corona al centro y guía sobre la repisa: la decoración clásica de una sala elegante.', true],
 };
