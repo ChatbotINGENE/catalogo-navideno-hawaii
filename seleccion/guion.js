@@ -10,8 +10,8 @@
 
 const TIENDA = {
   nombre:     'Almacén Hawaii',
-  whatsapp:   '50379516056',            // el número tal como lo quiere wa.me
-  telVisible: '+503 7951-6056',
+  whatsapp:   '50376183395',            // el de Fernando: esta edición la atiende él (18-nov)
+  telVisible: '+503 7618-3395',
   // En renglones, para que el corte de línea no caiga a mitad de
   // "Edificio Byssa". Son dos direcciones distintas y van separadas: la
   // tienda es donde se retira y se paga; el centro de distribución, no.
